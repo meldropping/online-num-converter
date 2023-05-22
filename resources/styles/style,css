@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+#content {
+    width: 30%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 440px;
+    max-width: 2000px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.pads {
+    padding: 20px;
+}
+
+#output {
+    height: 20px;
+}
+
+#footer {
+    padding: 8px 0 0 0;
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+}
+
+#cred {
+    text-align: center;
+    font-size: 12px;
+}
